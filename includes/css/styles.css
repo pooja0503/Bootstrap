@@ -1,0 +1,351 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Pooja Pandeya
+Updated: August 2016
+Notes:	 Hand coded for own use.
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+/*Changing the background of the body*/
+body 
+{
+    background-color:#fcffc8;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+/*Changing the background-colour of thumbnail class*/
+.thumbnail
+{
+  background-color:rgba(205, 220, 57, 0.37);
+}
+
+/*Formatting the h3 tag in thumbnail*/
+.thumbnail h3
+{
+   font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+   text-align:center;
+}
+
+/*Formatting the p tag in thumbnail*/
+.thumbnail p
+{
+   font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+   text-align:center;
+}
+
+/*Changing background and margin for jumbotron*/
+.jumbotron
+{
+   background-color:#f1ff9e;
+   margin-top:40px;
+
+}
+
+/*Formatting the h1 tag in jumbotron*/
+#jumboHead
+{
+   font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+   text-align:center;
+}
+/*Formatting the p tag in jumbotron*/
+.jumbotron p
+{
+   font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+   text-align:center;
+}
+/*Resizing the image in second thumbnail*/
+#piano
+{
+   height:200px;
+   width:362px;
+}
+/*Resizing the image in third thumbnail*/
+#drum
+{
+   height:200px;
+   width:362px;
+}
+
+#row1 h2
+{
+  font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  text-align:center;
+}
+#row1 p
+{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+section
+{
+    margin-top: 50px;
+}
+#shows p
+{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin-bottom: 0px;
+  margin-left: 150px;
+}
+
+#shows h2
+{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 150px;
+
+}
+
+#shows hr
+{
+
+    width: 400px;
+    margin-right: 0px;
+    margin-left: 150px;
+
+}
+#thumbDate
+{
+    width: 70px;
+    height: 74px;
+    margin-left: 150px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    padding-top: 0px;
+
+}
+.col-lg-3
+{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    left: 180px;
+    width: 175px;
+}
+
+.foot
+{
+  list-style: none;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+#sap
+{
+  height: 23px;
+  width: 50px;
+}
+#apple
+{
+  height: 17px;
+  width: 80px;
+}
+#img
+{
+  height:30px;
+  width:30px;
+}
+.social
+{
+  display: inline;
+  margin: auto;
+}
+#footRow
+{
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.43);
+}
+.col-lg-4
+{
+    margin-top: 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #nav
+   {
+      background: rgba(255, 203, 7, 0.86);
+
+   }
+   #getStarted
+   {
+
+    margin-top: 25px;
+    width: 590px;
+
+   }
+   #p1
+   {
+
+    font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size:20px;
+    line-height:1.428571429;
+    float:left;
+    margin-bottom:0px;
+    margin-top:5px;
+
+   }
+
+   #getStarted button
+   {
+
+    margin-left:10px;
+
+   }
+
+   #options
+   {
+      list-style:none;
+      display:inline;
+   }
+
+   ul.nav
+   {
+
+    height:40px;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+   }
+   ul.nav li
+   {
+
+    margin-left:58px;
+    margin-right:70px;
+    float:left;
+
+   }
+
+   ul.nav li a
+   {
+      font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+      font-weight:bold;
+      font-size:14px;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel
+   {
+
+    margin-top:200px;
+
+   }
+
+   #myCarousel .item
+   {
+      height: 300px;
+   }
+
+   #slide1
+   {
+      background: url('../../images/Music-Can-Touch-You-Facebook-Cover - medium.jpg') top center no-repeat;
+   }
+   #slide2
+   {
+      background: url('../../images/Music-Only-Makes-Me-Stronger-Facebook-Cover - medium.png') top center no-repeat;
+   }
+   #slide3
+   {
+      background: url('../../images/when-the-lyrics - medium.png') top center no-repeat;
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) 
+{
+	 #myCarousel .item
+   {
+      height: 210px;
+   }
+
+   #slide1
+   {
+      background: url('../../images/Music-Can-Touch-You-Facebook-Cover - small.jpg') top center no-repeat;
+   }
+   #slide2
+   {
+      background: url('../../images/Music-Only-Makes-Me-Stronger-Facebook-Cover - small.png') top center no-repeat;
+   }
+   #slide3
+   {
+      background: url('../../images/when-the-lyrics - small.png') top center no-repeat;
+   }
+
+   #guitar
+   {
+    height:398px;
+    width:718px;
+   }
+
+   #piano
+   {
+    height:398px;
+    width:718px;
+   }
+
+   #drum
+   {
+    height:398px;
+    width:718px;
+   }
+
+   iframe
+   {
+    height:398px;
+    width:718px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) 
+{
+	#myCarousel .item
+   {
+      height: 400px;
+   }
+
+   #slide1
+   {
+      background: url('../../images/Music-Can-Touch-You-Facebook-Cover - Copy.jpg') top center no-repeat;
+   }
+   #slide2
+   {
+      background: url('../../images/Music-Only-Makes-Me-Stronger-Facebook-Cover - Copy.png') top center no-repeat;
+   }
+   #slide3
+   {
+      background: url('../../images/when-the-lyrics - Copy.png') top center no-repeat;
+   }
+}
